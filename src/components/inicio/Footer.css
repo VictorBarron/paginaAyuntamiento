@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  :root{
+    --primary: #123456;
+    --secundary: #81b71a;
+    --tercero: 	#191414;
+    --bajito: #d8e7b7;
+    --blanco: #fff;
+  }
+
+
+  .footer{
+    background-color: var(--primary);
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .logo{
+      width: 125px;
+      margin-left: auto;
+      margin-right: auto;
+    border-radius: 5px;
+    transition: transform .2s;
+    background-color: white;
+    /* border: 2px solid var(--secundary); */
+  }
+
+  .logo:hover{
+    transform: scale(1.05);
+  }
+  .logo1{
+      width: 125px;
+      margin-left: auto;
+      margin-right: auto;
+    border-radius: 5px;
+    
+    
+  }
+
+  .imglogo{
+    width: 10px;
+  }
+
+
+  .t1{
+    color: var(--blanco);
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+  }
+
+  .t2{
+    color: var(--blanco);
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+  }
+
+
+  .dir{
+    color: var(--blanco);
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+  }
+
+  .uno{
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid white;
+  }
+
+  .social-menu {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.social-menu ul {
+  
+  
+    position: relative;
+    padding: 0;
+    margin: 0;
+    top: 50%;
+    left: 10%;
+    
+    margin-top: 20px;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--blanco);
+    text-align: center;
+    transition: 0.5s;
+  
+   
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+    box-shadow: 0px 7px 5px var(--blanco);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+}
+
+.fav{
+  color: white;
+}
+.fav:hover{
+  color: #55acee;
+}
+
+.mapa{
+  color: #81b71a;
+}
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }* {
+        box-sizing: border-box;
+      }
+      
+      
+      .row {
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          -ms-flex: 50%;
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          -ms-flex: 100%;
+          flex: 100%;
+          max-width: 100%;
+        }
+    }
+}

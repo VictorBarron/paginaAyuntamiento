@@ -1,0 +1,117 @@
+:root{
+    --primary: #123456;
+    --secundary: #81b71a;
+    --tercero: 	#191414;
+    --bajito: #d8e7b7;
+    --blanco: #fff;
+  }
+/* Create three equal columns that floats next to each other */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.parallaxAguililla{
+    background-image: url("../../images/parallax4.jpg");
+    min-height: 400px; 
+    margin: 0px;;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+
+  
+
+  
+
+.flex-container2 {
+    
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    text-align: justify;
+    background-image: linear-gradient(to right  ,var(--blanco), var(--bajito));
+  }
+  
+  .flex-item-left2 {
+    padding: 20px;
+    flex: 50%;
+  }
+  
+  .flex-item-right2 {
+    padding-top: 20px ;
+    padding-right: 20px;
+    flex: 50%;
+  }
+
+  .historia{
+      margin: 20px;
+      padding: 20px;
+  }
+
+  .imga{
+      max-width: 90%;
+      border-radius: 50%;
+      transition: transform .2s;
+      margin-left: 40px;
+      margin-right: auto;
+  }
+  .imga1{
+      max-width: 90%;
+      border-radius: 5px;
+      
+      margin-left: 40px;
+      margin-right: auto;
+  }
+
+  .imga:hover{
+    transform: scale(1.05);
+    
+  }
+ 
+  .personajes{
+    text-align: center;
+  }
+  .apartado1{
+      width: 400px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      font-size: 30px;
+      color: var(--primary);
+      background-color: white;
+      
+      border-radius: 10px;
+      
+  }
+
+.municipio{
+    background-image: linear-gradient(to right  ,var(--blanco), var(--secundary));
+}
+
+
+
+  @media (max-width: 800px) {
+    .flex-container2 {
+        width: 100%;
+      flex-direction: column;
+    }
+
+    @media (min-width: 1200px) {
+        .flex-container2 {
+            width: 1200px;
+          flex-direction: column;
+        }
+    }
+
+  }
+  
